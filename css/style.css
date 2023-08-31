@@ -1,0 +1,185 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    
+    }
+
+.font13 {
+
+    font-size: 13px;
+
+}
+
+.font14 {
+
+  font-size: 14px;
+
+}
+
+.fontf {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, li {
+
+    list-style-type: none;
+
+}
+
+nav .list li{
+
+    margin-left: 20px;
+    float: left;
+}
+
+.top-left {
+    position:absolute; /* Elementin sayfada sabit bir konumda olmasını sağlar */
+    top: 0; /* Üst kenara 0 piksellik mesafede */
+    left: 0; /* Sol kenara 0 piksellik mesafede */
+    display: flex;
+    justify-content: flex-start; /* Elemanları sola hizalar */
+  }
+
+  .top-left li {
+    margin-right: 20px; /* İstediğiniz aralığı ayarlayabilirsiniz */
+}
+
+  .top-right {
+    position:fixed; /* Elementin sayfada sabit bir konumda olmasını sağlar */
+    top: 0; /* Üst kenara 0 piksellik mesafede */
+    right: 50px; /* Sağ kenara 0 piksellik mesafede */
+    padding: 15px; /* İsteğe bağlı: Yazıya boşluk eklemek için padding kullanabilirsiniz */
+    float: left;
+  }
+
+  .under-left {
+    position:absolute; /* Elementin sayfada sabit bir konumda olmasını sağlar */
+    bottom: 0; /* Üst kenara 0 piksellik mesafede */
+    left: 0; /* Sol kenara 0 piksellik mesafede */
+    display: flex;
+    justify-content: flex-start; /* Elemanları sola hizalar */
+  }
+
+  .under-left li {
+    margin-right: 20px; /* İstediğiniz aralığı ayarlayabilirsiniz */
+}
+
+.under-right {
+  position:absolute; /* Elementin sayfada sabit bir konumda olmasını sağlar */
+  bottom: 0; /* Üst kenara 0 piksellik mesafede */
+  right: 0; /* Sol kenara 0 piksellik mesafede */
+  display: flex;
+  justify-content: flex-start; /* Elemanları sola hizalar */
+}
+
+.under-right li {
+  margin-right: 20px; /* İstediğiniz aralığı ayarlayabilirsiniz */
+}
+
+  .flex-container {
+    display: flex; /* Flexbox düzenini etkinleştirir */
+    list-style: none;
+  }
+  
+  .flex-container li {
+    margin-right: 20px; /* Metinler arasına boşluk ekler */
+  }
+  
+  .flex-container li:last-child {
+    margin-right: 0; /* Son metinde boşluk olmamasını sağlar */
+  }
+
+  #button1 {
+
+    color:white;
+    background-color:rgb(98, 138, 255);
+    border-radius: 2px;
+    border: none;
+    height: 30px;
+    width: 80px;
+
+  }
+
+  .googlelogo {
+
+    position: relative;
+    
+  }
+
+  .googlelogo img {
+
+        position: absolute;
+        top: 120px;
+        left: 650px;
+
+  }
+
+  .searchbar {
+
+    position: relative;
+
+  }
+
+  .searchbar input {
+
+    border: 2px solid rgb(218, 219, 219);
+    border-radius: 50px;
+    position: absolute;
+    top: 240px;
+    left: 540px;
+    width: 480px;
+    height: 35px;
+
+  }
+
+  .custom-input {
+
+    border: none; /* Input etiketinin kendi border'ını kaldırır */
+    background-color: transparent; /* Input arka plan rengini saydam yapar */
+    outline: none;
+    
+  }
+
+  .voicelogo {
+
+    position: absolute;
+        top: 250px;
+        left: 995px;
+
+
+  }
+
+  .magnifying {
+
+    position: absolute;
+        top: 252px;
+        left: 550px;
+
+
+  }
+
+  .buttons-container {
+
+    position: absolute;
+    top: 320px;
+    left: 680px;
+    
+  }
+
+  .custom-buttons {
+
+    border: 1px #f2f2f2;
+    color: #5f6368;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+
+  a {
+
+    text-decoration: none;
+    color: black;
+  }
